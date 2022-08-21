@@ -1,5 +1,4 @@
 import React from 'react';
-import { useEffect } from 'react';
 
 import Box from '@mui/material/Box';
 import Typography from './Typography';
@@ -7,9 +6,6 @@ import Button from './Button';
 import TextField from './TextField';
 
 function AskForOffers(props) {
-    useEffect(()=>{
-        console.log("PROPS2",props);
-    },[])
     const handleSubmit = (e) =>{
         e.preventDefault();
         console.log("sumbit");
