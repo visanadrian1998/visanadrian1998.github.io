@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate  } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
@@ -19,7 +19,7 @@ const item = {
     cursor: "pointer",
 };
 function ChooseWedding() {
-    const navigate = useNavigate ();
+    const navigate = useNavigate();
 
     return (
         <div>
@@ -50,7 +50,7 @@ function ChooseWedding() {
                     <Grid container spacing={5} justifyContent="center"
                         alignItems="center">
                         <Grid item xs={12} md={4}>
-                            <Box onClick={() => navigate("/nunta-greceasca") } sx={item}>
+                            <Box onClick={() => navigate("/nunta-greceasca")} sx={item}>
                                 <Box
                                     component="img"
                                     src={Sezlong}
@@ -62,12 +62,10 @@ function ChooseWedding() {
                                 </Typography>
                                 <Typography variant="h5" sx={{ textAlign: "center" }}>
                                     {
-                                        'From the latest trendy boutique hotel to the iconic palace with XXL pool'
+                                        'Privatize a pool, take a Japanese bath or wake up in 900m2 of garden… '
                                     }
 
-                                    {
-                                        ', go for a mini-vacation just a few subway stops away from your home.'
-                                    }
+                                    {'your Sundays will not be alike.'}
                                 </Typography>
                             </Box>
                         </Grid>
