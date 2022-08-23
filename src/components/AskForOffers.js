@@ -16,7 +16,7 @@ function AskForOffers(props) {
     const [emailValue, setEmailValue] = useState("");
     const [telefonValue, setTelefonValue] = useState("");
     const [nrPersoaneValue, setNrPersoaneValue] = useState("");
-    const [dateValue, setDateValue] = useState(new Date());
+    const [dateValue, setDateValue] = useState("");
     const [weddingTypeText, setWeddingTypeText] = useState("");
     const [formSent, setFormSent] = useState("");
     const [openSnackbar, setOpenSnackbar] = useState(false);
@@ -42,25 +42,25 @@ function AskForOffers(props) {
             email: emailValue,
             telefon: telefonValue,
             nrPersoane: nrPersoaneValue,
-            dataIdeala: dateValue
+            dataIdeala: dateValue ? dateValue.toLocaleDateString("ro-RO") : ""
         }
         setFormSent("error");
         setOpenSnackbar(true);
-        setTimeout(()=>{
+        setTimeout(() => {
             setOpenSnackbar(false);
-        },6000);
-        
-       /* emailjs.send('service_fymvirl', 'template_6aen5ff', paramsEmailOffer, 'X_0FA3ZBZUm-LNe80')
-            .then((response) => {
-                setFormSent("success");
-            }).catch((error) => {
-                setFormSent("error");
-            }).finally(() => {
-                setOpenSnackbar(true);
-                setTimeout(()=>{
-                    setOpenSnackbar(false);
-                },6000);
-            });*/
+        }, 6000);
+
+        /* emailjs.send('service_fymvirl', 'template_6aen5ff', paramsEmailOffer, 'X_0FA3ZBZUm-LNe80')
+             .then((response) => {
+                 setFormSent("success");
+             }).catch((error) => {
+                 setFormSent("error");
+             }).finally(() => {
+                 setOpenSnackbar(true);
+                 setTimeout(()=>{
+                     setOpenSnackbar(false);
+                 },6000);
+             });*/
     }
 
     return (
@@ -105,6 +105,7 @@ function AskForOffers(props) {
                     label="Numar persoane"
                     noBorder
                     variant="standard"
+                    value={nrPersoaneValue}
                     onChange={(newValue) => setNrPersoaneValue(newValue.target.value)}
                     sx={{ width: '100%', mt: 3, mb: 2 }}
                 />
@@ -112,7 +113,7 @@ function AskForOffers(props) {
                     <MobileDatePicker
                         label="Data ideala"
                         inputFormat="dd/MM/yyyy"
-                        value={dateValue}
+                        value={dateValue ? dateValue : null}
                         onChange={(newValue) => setDateValue(newValue)}
                         renderInput={(params) => <TextField noBorder variant="standard" sx={{ width: '100%', mt: 3, mb: 2 }} {...params} />}
                         disablePast
@@ -152,7 +153,7 @@ function AskForOffers(props) {
             <Snackbar
                 open={openSnackbar}
                 closeFunc={() => setOpenSnackbar(false)}
-                message={formSent==="success"?"Vă mulțumim! Vă vom contacta în cel mai scurt timp.":formSent==="error"?"Am întâmpinat o eroare. încercați din nou mai târziu.":""}
+                message={formSent === "success" ? "Vă mulțumim! Vă vom contacta în cel mai scurt timp." : formSent === "error" ? "Am întâmpinat o eroare. Încercați din nou mai târziu." : ""}
             />
         </Box>
     );
