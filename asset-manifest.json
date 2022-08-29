@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.dd3ea19f.css",
+    "main.js": "/react-gh-pages/static/js/main.ab808c42.js",
+    "static/js/787.dab76900.chunk.js": "/react-gh-pages/static/js/787.dab76900.chunk.js",
+    "static/media/beachWeddingCouple.jpg": "/react-gh-pages/static/media/beachWeddingCouple.22b01f4761adf1c83156.jpg",
+    "static/media/roboto-all-400-normal.woff": "/react-gh-pages/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
+    "static/media/roboto-condensed-all-400-normal.woff": "/react-gh-pages/static/media/roboto-condensed-all-400-normal.242461da0ded06ef3693.woff",
+    "static/media/work-sans-all-400-normal.woff": "/react-gh-pages/static/media/work-sans-all-400-normal.b58d604eac41398ce0df.woff",
+    "static/media/backgroundCurvyLines.png": "/react-gh-pages/static/media/backgroundCurvyLines.72c5c8a8f3d13e9ba665.png",
+    "static/media/work-sans-latin-400-normal.woff2": "/react-gh-pages/static/media/work-sans-latin-400-normal.2be2e389abc030166b5e.woff2",
+    "static/media/roboto-latin-400-normal.woff2": "/react-gh-pages/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
+    "static/media/roboto-condensed-latin-400-normal.woff2": "/react-gh-pages/static/media/roboto-condensed-latin-400-normal.bb7a4e73944870e385e1.woff2",
+    "static/media/roboto-cyrillic-ext-400-normal.woff2": "/react-gh-pages/static/media/roboto-cyrillic-ext-400-normal.804378952da8a10faae2.woff2",
+    "static/media/roboto-condensed-cyrillic-ext-400-normal.woff2": "/react-gh-pages/static/media/roboto-condensed-cyrillic-ext-400-normal.fcd8cab1a391e15a4a25.woff2",
+    "static/media/roboto-latin-ext-400-normal.woff2": "/react-gh-pages/static/media/roboto-latin-ext-400-normal.861b791f9de857a6e7bc.woff2",
+    "static/media/roboto-condensed-latin-ext-400-normal.woff2": "/react-gh-pages/static/media/roboto-condensed-latin-ext-400-normal.3977c6a007dc01cfd580.woff2",
+    "static/media/work-sans-latin-ext-400-normal.woff2": "/react-gh-pages/static/media/work-sans-latin-ext-400-normal.3507d60e70503f3dee2a.woff2",
+    "static/media/roboto-condensed-cyrillic-400-normal.woff2": "/react-gh-pages/static/media/roboto-condensed-cyrillic-400-normal.0cf65c384ed898fe0b45.woff2",
+    "static/media/roboto-cyrillic-400-normal.woff2": "/react-gh-pages/static/media/roboto-cyrillic-400-normal.71a33b6b50457b2c903a.woff2",
+    "static/media/roboto-condensed-greek-400-normal.woff2": "/react-gh-pages/static/media/roboto-condensed-greek-400-normal.a11231a21f9d32e41d7a.woff2",
+    "static/media/roboto-greek-400-normal.woff2": "/react-gh-pages/static/media/roboto-greek-400-normal.c35e4c3958e209d17b31.woff2",
+    "static/media/roboto-condensed-vietnamese-400-normal.woff2": "/react-gh-pages/static/media/roboto-condensed-vietnamese-400-normal.edbb62e501e04eab6174.woff2",
+    "static/media/roboto-vietnamese-400-normal.woff2": "/react-gh-pages/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
+    "static/media/timona.svg": "/react-gh-pages/static/media/timona.5edb4c49adabfa616238f705a0232b06.svg",
+    "static/media/work-sans-vietnamese-400-normal.woff2": "/react-gh-pages/static/media/work-sans-vietnamese-400-normal.1bf61886f065c3e550cb.woff2",
+    "static/media/portofel.svg": "/react-gh-pages/static/media/portofel.8916fad18830840bc9947acfa0c0ee88.svg",
+    "static/media/roboto-condensed-greek-ext-400-normal.woff2": "/react-gh-pages/static/media/roboto-condensed-greek-ext-400-normal.5df01ae6008986cc8d2e.woff2",
+    "static/media/roboto-greek-ext-400-normal.woff2": "/react-gh-pages/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/sezlong.svg": "/react-gh-pages/static/media/sezlong.3b851999cb1c9f5ec205f1871f8ae032.svg",
+    "main.dd3ea19f.css.map": "/react-gh-pages/static/css/main.dd3ea19f.css.map",
+    "main.ab808c42.js.map": "/react-gh-pages/static/js/main.ab808c42.js.map",
+    "787.dab76900.chunk.js.map": "/react-gh-pages/static/js/787.dab76900.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd3ea19f.css",
+    "static/js/main.ab808c42.js"
+  ]
+}
